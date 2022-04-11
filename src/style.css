@@ -1,0 +1,101 @@
+*{
+    box-sizing: border-box
+}
+
+.body {
+    margin:0;
+    font-family: 'Inter', sans-serif;
+}
+
+.navbar{
+    background-color: #F55A5A;
+    color: #FFFFFF;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;  
+}
+
+.navbar-logo{
+   margin-right:10px; 
+    width: 25px;
+    height: 25px;
+}
+
+.navbar-title{
+    font-weight: 500,medium;
+    font-size: 15px;
+    line-height: 18px;
+  }
+
+  /* CARD */
+
+  .card{
+      display: flex;
+      background-color: #FFFFFF;
+      color: #2B283A;
+      margin-left: 15px;
+      margin-top: 15px;
+  }
+
+  .card--main{
+      margin-left: 20px;
+      text-align: left;
+  }
+
+.card--image{
+    width:40%;
+    border-radius: 1em;
+    padding: 0.4em;
+    
+}
+
+.card--locationContainer{
+    display: flex;
+    justify-content: left;
+}
+
+.fa-solid{
+    color: #F55A5A;
+    align-self: center;
+}
+
+.card--location, .fa-solid ,.card--maps {
+    align-self: center;
+    margin-right: 8px;
+    font-size: 14px;
+}
+
+.card--location{
+    text-transform: uppercase;
+}
+
+.card--maps{
+    text-decoration: underline;
+    color: #918E9B;
+}
+
+.card--maps:hover{
+    color:#F55A5A
+}
+
+.card--title{
+    font-size: 25px;
+    font-weight: 700;
+}
+
+.card--date{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+.card--description{
+    font-size: 12px;
+    font-weight: 400;
+}
+
+hr {
+    border: 1px solid #F5F5F5;
+}
